@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="chess.css" />
+    <title>Chess Board</title>
+  </head>
+  <body>
+    <label class="switch" for="piece">
+      <input type="checkbox" id="piece">
+      <span class="slider round"></span>
+    
+<h1>Chessboard</h1>
+<div class="chessboard">
+  <!-- 1st -->
+  <div class="white"> <span class="piece">&#9820;<p class="text1">A8</p></span></div>
+  <div class="black"> <span class="piece">&#9822;<p class="text1">B8</p></span></div>
+  <div class="white"> <span class="piece">&#9821;<p class="text1">C8</p></span></div>
+  <div class="black"> <span class="piece">&#9819;<p class="text1">H8</p></span></div>
+  <div class="white"> <span class="piece">&#9818;<p class="text1">E8</p></span></div>
+  <div class="black"> <span class="piece">&#9821;<p class="text1">F8</p></span></div>
+  <div class="white"> <span class="piece">&#9822;<p class="text1">G8</p></span></div>
+  <div class="black"> <span class="piece">&#9820;<p class="text1">H8</p></span></div>
+  <!-- 2nd -->
+  <div class="black"> <span class="piece">&#9823;<p class="text1">A7</p></span></div>
+  <div class="white"> <span class="piece">&#9823;<p class="text1">B7</p></span></div>
+  <div class="black"> <span class="piece">&#9823;<p class="text1">C7</p></span></div>
+  <div class="white"> <span class="piece">&#9823;<p class="text1">D7</p></span></div>
+  <div class="black"> <span class="piece">&#9823;<p class="text1">E7</p></span></div>
+  <div class="white"> <span class="piece">&#9823;<p class="text1">F7</p></span></div>
+  <div class="black"> <span class="piece">&#9823;<p class="text1">G7</p></span></div>
+  <div class="white"> <span class="piece">&#9823;<p class="text1">H7</p></span></div>
+  <!-- 3rd -->
+  <div class="white"> <p class="text">A6</p></div>
+  <div class="black"> <p class="text">B6</p></div>
+  <div class="white"> <p class="text">C6</p></div>
+  <div class="black"> <p class="text">D6</p></div>
+  <div class="white"> <p class="text">E6</p></div>
+  <div class="black"> <p class="text">F6</p></div>
+  <div class="white"> <p class="text">G6</p></div>
+  <div class="black"> <p class="text">H6</p></div>
+  <!-- 4th -->
+  <div class="black"> <p class="text">A5</p></div>
+  <div class="white"> <p class="text">B5</p></div>
+  <div class="black"> <p class="text">C5</p></div>
+  <div class="white"> <p class="text">D5</p></div>
+  <div class="black"> <p class="text">E5</p></div>
+  <div class="white"> <p class="text">F5</p></div>
+  <div class="black"> <p class="text">G5</p></div>
+  <div class="white"> <p class="text">H5</p></div>
+  <!-- 5th -->
+  <div class="white" id="a4"> <p class="text">A4</p></div>
+  <div class="black" id="b4"> <p class="text">B4</p></div>
+  <div class="white" id="c4"> <p class="text">C4</p></div>
+  <div class="black" id="d4"> <p class="text">D4</p></div>
+  <div class="white" id="e4"> <p class="text">E4</p></div>
+  <div class="black" id="f4"> <p class="text">F4</p></div>
+  <div class="white" id="g4"> <p class="text">G4</p></div>
+  <div class="black" id="h4"> <p class="text">H4</p></div>
+  <!-- 6th -->
+  <div class="black" id="a3"> <p class="text">A3</p></div>
+  <div class="white" id="b3"> <p class="text">B3</p></div>
+  <div class="black" id="c3"> <p class="text">C3</p></div>
+  <div class="white" id="d3"> <p class="text">D3</p></div>
+  <div class="black" id="e3"> <p class="text">E3</p></div>
+  <div class="white" id="f3"> <p class="text">F3</p></div>
+  <div class="black" id="g3"> <p class="text">G3</p></div>
+  <div class="white" id="h3"> <p class="text">H3</p></div>
+  <!-- 7th -->
+  <div class="white" id="a2"><span class="piece">&#9817;<p class="text1">A2</p></span></div>
+  <div class="black" id="b2"><span class="piece"> &#9817;<p class="text1">B2</p></span></div>
+  <div class="white" id="c2"><span class="piece"> &#9817;<p class="text1">C2</p></span></div>
+  <div class="black" id="d2"><span class="piece"> &#9817;<p class="text1">D2</p></span></div>
+  <div class="white" id="e2"><span class="piece"> &#9817;<p class="text1">E2</p></span></div>
+  <div class="black" id="f2"><span class="piece"> &#9817;<p class="text1">F2</p></span></div>
+  <div class="white" id="g2"><span class="piece"> &#9817;<p class="text1">G2</p></span></div>
+  <div class="black" id="h2"><span class="piece"> &#9817;<p class="text1">H2</p></span></div>
+  <!-- 8th -->
+  <div class="black eight" id="a1"><span class="piece" id="castle"> &#9814;<p class="text1">A1</p></span></div>
+  <div class="white eight" id="b1"><span class="piece">&#9816; <p class="text1">B1</p></span></div>
+  <div class="black eight" id="c1"><span class="piece"> &#9815;<p class="text1">C1</p></span></div>
+  <div class="white eight" id="d1"><span class="piece"> &#9813;<p class="text1">D1</p></span></div>
+  <div class="black eight" id="e1"><span class="piece"> &#9812;<p class="text1">E1</p></span></div>
+  <div class="white eight" id="f1"><span class="piece"> &#9815;<p class="text1">F1</p></span></div>
+  <div class="black eight" id="g1"><span class="piece">&#9816; <p class="text1">G1</p></span></div>
+  <div class="white eight" id="h1"> <span class="piece" id="h1a"> &#9814;<p class="text1">H1</p></span></div>
+</div>
+
+</label>
+</body>
+</html>
