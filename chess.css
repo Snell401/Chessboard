@@ -131,19 +131,16 @@ opacity: 0;
    /* #h1:hover {
     box-shadow:inset 2px 2px 0 rgb(247, 245, 245);
 } */
- #h1:hover {
-    animation-name: h1;
-    animation-duration: 8s;
-}
-@keyframes h1 {
-    0%  {transform: translateX(0px);}
-    20% {transform: translateX(-570px);}
-    40% {transform: translateX(0px);}
-    60% {transform: translateY(-570px);}
-    80% {transform: translateY(0px);}
-}
-
-#h2:hover {
+/* make the pieces move */
+/* pawn moves */
+#h2:hover,
+#a2:hover,
+#b2:hover,
+#c2:hover,
+#d2:hover,
+#e2:hover,
+#f2:hover,
+#g2:hover    {
     animation-name: h2;
     animation-duration: 6s;
 }
@@ -153,16 +150,124 @@ opacity: 0;
     66% {transform: translateY(0px);}
 }
 
-#g2:hover {
-    animation-name: g2;
+#h7:hover,
+#a7:hover,
+#b7:hover,
+#c7:hover,
+#d7:hover,
+#e7:hover,
+#f7:hover,
+#g7:hover    {
+    animation-name: h7;
     animation-duration: 6s;
 }
-@keyframes g2 {
+
+/* castle moves */
+@keyframes h7 {
     0% {transform: translateX(0px);}
-    33% {transform: translateY(-150px);}
+    33% {transform: translateY(150px);}
     66% {transform: translateY(0px);}
 }
+#h1:hover {
+    animation-name: h1;
+    animation-duration: 8s;
+}
+@keyframes h1 {
+    0%  {transform: translateX(0px);}
+    20% {transform: translateX(-560px);}
+    40% {transform: translateX(0px);}
+    60% {transform: translateY(-560px);}
+    80% {transform: translateY(0px);}
+}
 
+#a1:hover {
+    animation-name: a1;
+    animation-duration: 8s;
+}
+@keyframes a1 {
+    0%  {transform: translateX(0px);}
+    20% {transform: translateX(560px);}
+    40% {transform: translateX(0px);}
+    60% {transform: translateY(-560px);}
+    80% {transform: translateY(0px);}
+}
+
+#a8:hover {
+    animation-name: a8;
+    animation-duration: 8s;
+}
+@keyframes a8 {
+    0%  {transform: translateX(0px);}
+    20% {transform: translateX(560px);}
+    40% {transform: translateX(0px);}
+    60% {transform: translateY(560px);}
+    80% {transform: translateY(0px);}
+}
+#h8:hover {
+    animation-name: h8;
+    animation-duration: 8s;
+}
+@keyframes h8 {
+    0%  {transform: translateX(0px);}
+    20% {transform: translateX(-560px);}
+    40% {transform: translateX(0px);}
+    60% {transform: translateY(560px);}
+    80% {transform: translateY(0px);}
+}
+
+/* queen moves */
+#d1:hover {
+    animation-name: d1;
+    animation-duration: 10s;
+}
+@keyframes d1 {
+
+    0%  {transform: translateX(0px);}
+    20% {transform: translateY(-560px);}
+    40% {transform: translateX(0px);}
+    60% {transform: translateX(-240px);}
+    80% {transform: translateX(320px);}    
+}
+#d8:hover {
+    animation-name: d8;
+    animation-duration: 10s;
+}
+@keyframes d8 {
+
+    0%  {transform: translateX(0px);}
+    20% {transform: translateY(560px);}
+    40% {transform: translateX(0px);}
+    60% {transform: translateX(-240px);}
+    80% {transform: translateX(320px);}    
+}
+
+/* king moves */
+#e1:hover {
+    animation-name: e1;
+    animation-duration: 6s;
+}
+@keyframes e1 {
+
+    0%  {transform: translateX(0px);}
+    20% {transform: translateY(-80px);}
+    40% {transform: translateX(0px);}
+    60% {transform: translateX(-80px);}
+    80% {transform: translateX(80px);}    
+}
+#e8:hover {
+    animation-name: e8;
+    animation-duration: 6s;
+}
+@keyframes e8 {
+
+    0%  {transform: translateX(0px);}
+    20% {transform: translateY(80px);}
+    40% {transform: translateX(0px);}
+    60% {transform: translateX(-80px);}
+    80% {transform: translateX(80px);}    
+}
+
+/* knight moves */
 #g1:hover {
     animation-name: g1;
     animation-duration: 6s;
@@ -170,19 +275,93 @@ opacity: 0;
 @keyframes g1 {
 
     0%  {transform: translateX(0px);}
-    12% {transform: translateY(-270px);}
-    25% {transform: translateX(-70px);}
-    50% {transform: translateX(0px);}    
+    12% {transform: translate(-160px, -80px);}
+    28% {transform: Translate(-80px, -160px);}
+    50% {transform: translate(80px, -160px);}
+    70% {transform: translateX(0px);}    
 }
+
+#b1:hover {
+    animation-name: b1;
+    animation-duration: 6s;
+}
+@keyframes b1 {
+
+    0%  {transform: translateX(0px);}
+    12% {transform: translate(160px, -80px);}
+    28% {transform: Translate(80px, -160px);}
+    50% {transform: translate(-80px, -160px);}
+    70% {transform: translateX(0px);}    
+}
+#b8:hover {
+    animation-name: b8;
+    animation-duration: 6s;
+}
+@keyframes b8 {
+
+    0%  {transform: translateX(0px);}
+    12% {transform: translate(160px, 80px);}
+    28% {transform: Translate(80px, 160px);}
+    50% {transform: translate(-80px, 160px);}
+    70% {transform: translateX(0px);}    
+}
+
+#g8:hover {
+    animation-name: g8;
+    animation-duration: 6s;
+}
+@keyframes g8 {
+
+    0%  {transform: translateX(0px);}
+    12% {transform: translate(-160px, 80px);}
+    28% {transform: Translate(-80px, 160px);}
+    50% {transform: translate(80px, 160px);}
+    70% {transform: translateX(0px);}    
+}
+/* rook moves */
 #f1:hover {
     animation-name: f1;
-    animation-duration: 10s;
+    animation-duration: 8s;
 }
 @keyframes f1 {
 
     0%  {transform: translateX(0px);}
-    12% {transform: translateY(-570px);}
-    25% {transform: translateX(0px);}
-    32% {transform: translateX(-430px);}
-    50% {transform: translateX(160px);}    
+    25% {transform: translate(-400px,-400px);}
+    50% {transform: translateX(0px);} 
+    75% {transform: Translate(160px, -160px);}      
+}
+#f8:hover {
+    animation-name: f8;
+    animation-duration: 8s;
+}
+@keyframes f8 {
+
+    0%  {transform: translateX(0px);}
+    25% {transform: translate(160px,160px);}
+    50% {transform: translateX(0px);} 
+    75% {transform: Translate(-400px, 400px);}      
+}
+
+#c1:hover {
+    animation-name: c1;
+    animation-duration: 8s;
+}
+@keyframes c1 {
+
+    0%  {transform: translateX(0px);}
+    25% {transform: translate(-160px,-160px);}
+    50% {transform: translateX(0px);} 
+    75% {transform: Translate(400px, -400px);}      
+}
+
+#c8:hover {
+    animation-name: c8;
+    animation-duration: 8s;
+}
+@keyframes c8 {
+
+    0%  {transform: translateX(0px);}
+    25% {transform: translate(-160px,160px);}
+    50% {transform: translateX(0px);} 
+    75% {transform: Translate(400px, 400px);}      
 }
