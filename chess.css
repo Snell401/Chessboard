@@ -45,7 +45,7 @@
     opacity: 0;
     margin: -50px 0 0 0 ;
     color: rgb(255, 30, 30);
-    text-shadow: 1px 1px black;
+    /* text-shadow: 1px 1px black; */
 
 }
 
@@ -143,6 +143,7 @@ opacity: 0;
 #g2:hover    {
     animation-name: h2;
     animation-duration: 6s;
+    background-color: red;
 }
 @keyframes h2 {
     0% {transform: translateX(0px);}
@@ -160,6 +161,7 @@ opacity: 0;
 #g7:hover    {
     animation-name: h7;
     animation-duration: 6s;
+    background-color: red;
 }
 
 /* castle moves */
@@ -171,6 +173,7 @@ opacity: 0;
 #h1:hover {
     animation-name: h1;
     animation-duration: 8s;
+    background-color: red;
 }
 @keyframes h1 {
     0%  {transform: translateX(0px);}
@@ -183,6 +186,7 @@ opacity: 0;
 #a1:hover {
     animation-name: a1;
     animation-duration: 8s;
+    background-color: red;
 }
 @keyframes a1 {
     0%  {transform: translateX(0px);}
@@ -195,6 +199,8 @@ opacity: 0;
 #a8:hover {
     animation-name: a8;
     animation-duration: 8s;
+    background-color: red;
+    
 }
 @keyframes a8 {
     0%  {transform: translateX(0px);}
@@ -206,6 +212,7 @@ opacity: 0;
 #h8:hover {
     animation-name: h8;
     animation-duration: 8s;
+    background-color: red;
 }
 @keyframes h8 {
     0%  {transform: translateX(0px);}
@@ -219,6 +226,7 @@ opacity: 0;
 #d1:hover {
     animation-name: d1;
     animation-duration: 10s;
+    background-color: red;
 }
 @keyframes d1 {
 
@@ -231,6 +239,7 @@ opacity: 0;
 #d8:hover {
     animation-name: d8;
     animation-duration: 10s;
+    background-color: red;
 }
 @keyframes d8 {
 
@@ -245,6 +254,7 @@ opacity: 0;
 #e1:hover {
     animation-name: e1;
     animation-duration: 6s;
+    background-color: red;
 }
 @keyframes e1 {
 
@@ -257,6 +267,7 @@ opacity: 0;
 #e8:hover {
     animation-name: e8;
     animation-duration: 6s;
+    background-color: red;
 }
 @keyframes e8 {
 
@@ -270,58 +281,63 @@ opacity: 0;
 /* knight moves */
 #g1:hover {
     animation-name: g1;
-    animation-duration: 6s;
+    animation-duration: 10s;
+    background-color: red;
 }
 @keyframes g1 {
 
     0%  {transform: translateX(0px);}
-    12% {transform: translate(-160px, -80px);}
-    28% {transform: Translate(-80px, -160px);}
-    50% {transform: translate(80px, -160px);}
-    70% {transform: translateX(0px);}    
+    20% {transform: translate(-160px, -80px);}
+    40% {transform: Translate(-80px, -160px);}
+    60% {transform: translate(80px, -160px);}
+    80% {transform: translateX(0px);}    
 }
 
 #b1:hover {
     animation-name: b1;
     animation-duration: 6s;
+    background-color: red;
 }
 @keyframes b1 {
 
     0%  {transform: translateX(0px);}
-    12% {transform: translate(160px, -80px);}
-    28% {transform: Translate(80px, -160px);}
-    50% {transform: translate(-80px, -160px);}
-    70% {transform: translateX(0px);}    
+    20% {transform: translate(160px, -80px);}
+    40% {transform: Translate(80px, -160px);}
+    60% {transform: translate(-80px, -160px);}
+    80% {transform: translateX(0px);}    
 }
 #b8:hover {
     animation-name: b8;
     animation-duration: 6s;
+    background-color: red;
 }
 @keyframes b8 {
 
     0%  {transform: translateX(0px);}
-    12% {transform: translate(160px, 80px);}
-    28% {transform: Translate(80px, 160px);}
-    50% {transform: translate(-80px, 160px);}
-    70% {transform: translateX(0px);}    
+    20% {transform: translate(160px, 80px);}
+    40% {transform: Translate(80px, 160px);}
+    60% {transform: translate(-80px, 160px);}
+    80% {transform: translateX(0px);}    
 }
 
 #g8:hover {
     animation-name: g8;
     animation-duration: 6s;
+    background-color: red;
 }
 @keyframes g8 {
 
     0%  {transform: translateX(0px);}
-    12% {transform: translate(-160px, 80px);}
-    28% {transform: Translate(-80px, 160px);}
-    50% {transform: translate(80px, 160px);}
-    70% {transform: translateX(0px);}    
+    20% {transform: translate(-160px, 80px);}
+    40% {transform: Translate(-80px, 160px);}
+    60% {transform: translate(80px, 160px);}
+    80% {transform: translateX(0px);}    
 }
 /* rook moves */
 #f1:hover {
     animation-name: f1;
     animation-duration: 8s;
+    background-color: red;
 }
 @keyframes f1 {
 
@@ -333,6 +349,7 @@ opacity: 0;
 #f8:hover {
     animation-name: f8;
     animation-duration: 8s;
+    background-color: red;
 }
 @keyframes f8 {
 
@@ -345,6 +362,7 @@ opacity: 0;
 #c1:hover {
     animation-name: c1;
     animation-duration: 8s;
+    background-color: red;
 }
 @keyframes c1 {
 
@@ -357,6 +375,7 @@ opacity: 0;
 #c8:hover {
     animation-name: c8;
     animation-duration: 8s;
+    background-color: red;
 }
 @keyframes c8 {
 
